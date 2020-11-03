@@ -3,7 +3,7 @@
 **| [Overview](#overview) | [Installation](#installation) | [Quick Start](#quick-start) | [Parameter Details](#parameter-details) | [Run CStreet in python interface](#run-cstreet-in-python-interface) | [Citation](#citation) |**
 
 
-[Figure1]
+![Figure1](https://github.com/yw-Hua/MarkdownPicture/raw/master/CStreet/Fig1.png)
 
 ## Overview
 
@@ -46,8 +46,7 @@ Type the following command to check whether CStreet has been installed successfu
    - The clustered cell states information if not provided by users. (YourProjectName.CellStates.txt)
    - The connection probabilities of cell states. (YourProjectName.ConnectionProbabilities.txt)
    - An visulization of inferred cell states trajectory. (YourProjectName.CellStatesTrajectory.pdf)
-     [SFig1]
-        ![results.png](https://github.com/yw-Hua/MarkdownPicture/blob/master/CStreet/results2.png?raw=true)
+        ![tiny_data_result.pdf](https://github.com/yw-Hua/MarkdownPicture/raw/master/CStreet/tiny_data_result.png)
 
 ## Parameter Details
 
