@@ -1,4 +1,4 @@
-# CStreet: a computed <u>C</u>ell <u>S</u>tates <u>tr</u>ajectory inf<u>e</u>r<u>e</u>nce method for <u>t</u>ime-series single-cell RNA-seq data
+# CStreet: a computed <ins>C</ins>ell <u>S</u>tates <u>tr</u>ajectory inf<u>e</u>r<u>e</u>nce method for <u>t</u>ime-series single-cell RNA-seq data
 
 **| [Overview](#overview) | [Installation](#installation) | [Quick Start](#quick-start) | [Parameter Details](#parameter-details) | [Run CStreet in python interface](#run-cstreet-in-python-interface) | [Citation](#citation) |**
 
