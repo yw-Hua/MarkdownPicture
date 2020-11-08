@@ -30,8 +30,8 @@ Type the following command to check whether CStreet has been installed successfu
 
 **Input**: 
 
-   - Expression data: Expression matrix containing the time-series expression level as reads counts or normalized values in tab delimited format, and anndata format are accepted as the input of CStreet. (For example: ExpressionMatrix_t1.txt ExpressionMatrix_t2.txt ExpressionMatrix_t3.txt)
-   - Cell states info: The cell states information can be inputted by the user or generated using the internal clustering function of CStreet. (For example: CellStates_t1.txt CellStates_t2.txt CellStates_t3.txt)
+   - Expression data: Expression matrix containing the time-series expression level as reads counts or normalized values in tab delimited format, and anndata format are accepted as the input of CStreet. (For example: [ExpressionMatrix_t1.txt]() [ExpressionMatrix_t2.txt]() [ExpressionMatrix_t3.txt]())
+   - Cell states info: The cell states information can be inputted by the user or generated using the internal clustering function of CStreet. (For example: [CellStates_t1.txt]() [CellStates_t2.txt]() [CellStates_t3.txt]())
 
 **Commandline**:
 
@@ -80,7 +80,9 @@ PATH/ProjectName
 ## Parameter Details
 
 ```
-CStreet [-h] <-i ExpMatrix1 ExpMatrix2 ExpMatrix3 ...> [-s CellStates1 CellStates2 CellStates3 ...] [-n ProjectName] [-o OutputDir] [options]
+usage: CStreet [-h] <-i ExpMatrix1 ExpMatrix2 ExpMatrix3 ...> [-s CellStates1 CellStates2 CellStates3 ...] [-n ProjectName] [-o OutputDir] [options]
+
+CStreet is a cell states trajectory inference method for time-series single-cell RNA-seq data.
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -205,4 +207,10 @@ optional arguments:
 
 ## Run CStreet in python interface
 
+CStreet can run directly or step by step in [Jupyter Notebook](https://jupyter.org/). 
+The tutorial  is [here]().
+
 ## Citation
+
+   > 
+
